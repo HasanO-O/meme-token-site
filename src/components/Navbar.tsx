@@ -28,6 +28,7 @@ function Navbar() {
         <Link href="/" className='hover:bg-gray-600 px-5 py-2.5 rounded-xl transition-colors'>Home</Link>
         <Link href="/about" className='hover:bg-gray-600 px-5 py-2.5 rounded-xl transition-colors'>About</Link>
         <Link href="/faq" className='hover:bg-gray-600 px-5 py-2.5 rounded-xl transition-colors'>FAQ</Link>
+        <Link href="/airdrop" className='hover:bg-gray-600 px-5 py-2.5 rounded-xl transition-colors'>Airdrop</Link>
         <div>
             <a href="https://app.uniswap.org/#/swap?outputCurrency=0xYourTokenAddress"
  target='_blank' rel="noopener noreferrer" className= "bg-yellow-500 border-black text-white font-semibold flex gap-10 hover:text-white items-center hover:bg-purple-600 rounded-sm py-2 px-2 transition-colors text-shadow-black text-shadow-xs">Buy Now</a>
