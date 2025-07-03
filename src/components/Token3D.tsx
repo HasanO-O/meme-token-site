@@ -15,7 +15,7 @@ function Token() {
     <group rotation={[0, Math.PI / 2, 0]} scale={2.2}>
       <mesh>
         <cylinderGeometry args={[1, 1, 0.05, 64, 1, false]} />
-        <meshStandardMaterial attach="material-0" color="gold" metalness={1} roughness={0.3} />
+        <meshStandardMaterial attach="material-0" color="gold" metalness={1} roughness={0.3}/>
         <meshStandardMaterial attach="material-1" map={texture} metalness={0.8} roughness={0.2} />
         <meshStandardMaterial attach="material-2" map={texture} metalness={0.8} roughness={0.2} />
       </mesh>
