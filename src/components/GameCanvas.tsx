@@ -79,14 +79,16 @@ export default function GameCanvas() {
         {/* Game Objects */}
         <Physics gravity={[0, -9.81, 0]}>
           <Basketball />
-        </Physics>
-        <Chairs/>
+          <Chairs/>
         <Hoop />
         <Court />
         <Stands/>
         <CoinPoster />
+        </Physics>
 
         {/*<OrbitControls/>*/}
+        <OrbitControls/>
+        
       </Canvas>
     </div>
   )
