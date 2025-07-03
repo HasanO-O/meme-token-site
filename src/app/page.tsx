@@ -38,91 +38,90 @@ export default function HomePage() {
 
       <section className='w-full text-center m-auto'>
         
-        <h1 className='text-4xl font-bold text-purple-700 mt-0 bg-gray-100 pt-15'>What is the BRON token ?</h1>
-        <p className='bg-gray-100 text-black p-20 text-xl '>Bron Token (BRN) is a meme token inspired by LeBron James — a global icon of excellence, perseverance, and impact. Celebrated for his dominance on the court and leadership off it, LeBron has become a cultural symbol beyond basketball. BRN aims to unite fans and meme enthusiasts in honoring his legacy through a community-driven, decentralized token that reflects his unstoppable spirit.</p>
+        <h1 className='text-4xl font-bold text-purple-700 mt-0 bg-zinc-900 pt-15'>What is the BRON token ?</h1>
+        <p className='bg-zinc-900 text-white p-20 text-xl '>Bron Token (BRN) is a meme token inspired by LeBron James — a global icon of excellence, perseverance, and impact. Celebrated for his dominance on the court and leadership off it, LeBron has become a cultural symbol beyond basketball. BRN aims to unite fans and meme enthusiasts in honoring his legacy through a community-driven, decentralized token that reflects his unstoppable spirit.</p>
       </section>
       <section className='w-full text-center m-auto'>
-        <h1 className='text-4xl font-bold bg-gray-100 text-purple-700 pt-15'>On-Chain Rewards, Not Traditional Mining</h1>
-        <p className='bg-gray-100 text-black p-20 text-xl'>Bron Token isn't mined in the usual sense. Instead, it uses smart contract logic to reward validators whenever BRN tokens are moved.
+        <h1 className='text-4xl font-bold bg-zinc-900 text-purple-700 pt-15'>On-Chain Rewards, Not Traditional Mining</h1>
+        <p className='bg-zinc-900 text-white p-20 text-xl'>Bron Token isn't mined in the usual sense. Instead, it uses smart contract logic to reward validators whenever BRN tokens are moved.
 No mining pools. No hardware. Just on-chain motion.</p>
       </section>
 
       {/* Features Section Of BRON Token*/}
-      <section className="bg-white pb-20 w-full">
+      <section className="bg-zinc-800  pb-20 w-full">
         <div className='items-center text-center'>
-          <h1 className="text-5xl bg-white text-purple-600  font-extrabold m-auto p-20">Some Fun Facts</h1>
+          <h1 className="text-5xl bg-zinc-800 text-purple-600  font-extrabold m-auto p-20">Some Fun Facts</h1>
         </div>
-  <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10 px-20 text-center font-bold text-lg">
-    
-    <div className="bg-black text-yellow-400 p-4 py-10 rounded-xl text-2xl shadow-xl/50">
-      LeBron-Inspired  
-      <FaBasketballBall className='m-auto size-20 mt-5 text-yellow-300 shadow-xl p-1 rounded-full shadow-yellow-300'/>
-      <p className="text-lg font-normal text-white mt-5">A meme token built to honor the spirit, dominance, and fandom of LeBron James.</p>
-    </div>
 
-    <div className="bg-black text-yellow-400 p-4 py-10 rounded-xl text-2xl shadow-xl/50">
-      Fixed Supply
-      <FaLock className='m-auto size-20 mt-5 text-yellow-300 shadow-xl p-3 rounded-xl shadow-yellow-300'/>
-      <p className="text-lg font-normal text-white mt-5">BRN has a hard cap of 100 million tokens. No inflation. Ever.</p>
-    </div>
+        <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10 px-20 text-center font-bold text-lg">
+          <div className="bg-black text-yellow-400 p-4 py-10 rounded-xl text-2xl shadow-xl/50">
+            LeBron-Inspired  
+            <FaBasketballBall className='m-auto size-20 mt-5 text-yellow-300 shadow-xl p-1 rounded-full shadow-yellow-300'/>
+            <p className="text-lg font-normal text-white mt-5">A meme token built to honor the spirit, dominance, and fandom of LeBron James.</p>
+          </div>
 
-    <div className="bg-black text-yellow-400 p-4 py-10 rounded-xl text-2xl shadow-xl/50">
-      Smart Rewards
-      <FaGift className='m-auto size-20 mt-5 text-yellow-300 shadow-xl p-3 rounded-2xl shadow-yellow-300'/>  
-      <p className="text-lg font-normal text-white mt-5">New tokens are minted as validator rewards during transfers — no mining rigs needed.</p>
-    </div>
+          <div className="bg-black text-yellow-400 p-4 py-10 rounded-xl text-2xl shadow-xl/50">
+            Fixed Supply
+            <FaLock className='m-auto size-20 mt-5 text-yellow-300 shadow-xl p-3 rounded-xl shadow-yellow-300'/>
+            <p className="text-lg font-normal text-white mt-5">BRN has a hard cap of 100 million tokens. No inflation. Ever.</p>
+          </div>
 
-    <div className="bg-black text-yellow-400 p-4 py-10 rounded-xl text-2xl shadow-xl/50">
-      Burnable
-      <FaFire className='m-auto size-20 mt-5 text-yellow-300 shadow-xl p-3 rounded-full shadow-yellow-300'/>
-      <p className="text-lg font-normal text-white mt-5">Tokens can be permanently destroyed, making BRN increasingly scarce.</p>
-    </div>
+          <div className="bg-black text-yellow-400 p-4 py-10 rounded-xl text-2xl shadow-xl/50">
+            Smart Rewards
+            <FaGift className='m-auto size-20 mt-5 text-yellow-300 shadow-xl p-3 rounded-2xl shadow-yellow-300'/>  
+            <p className="text-lg font-normal text-white mt-5">New tokens are minted as validator rewards during transfers — no mining rigs needed.</p>
+          </div>
 
-    <div className="bg-black text-yellow-400 p-4 py-10 rounded-xl text-2xl shadow-xl/50">
-      EVM Compatible
-      <FaEthereum className='m-auto size-20 mt-5 text-yellow-300 shadow-xl p-3 rounded-full shadow-yellow-300'/>  
-      <p className="text-lg font-normal text-white mt-5">Deployable on Ethereum, Polygon, Base, and all major EVM chains.</p>
-    </div>
+          <div className="bg-black text-yellow-400 p-4 py-10 rounded-xl text-2xl shadow-xl/50">
+            Burnable
+            <FaFire className='m-auto size-20 mt-5 text-yellow-300 shadow-xl p-3 rounded-full shadow-yellow-300'/>
+            <p className="text-lg font-normal text-white mt-5">Tokens can be permanently destroyed, making BRN increasingly scarce.</p>
+          </div>
 
-    <div className="bg-black text-yellow-400 p-4 py-10 rounded-xl text-2xl shadow-xl/50">
-      Airdrop Distributed
-      <FaPaperPlane className='m-auto size-20 mt-5 text-yellow-300 rounded-2xl p-3 shadow-xl shadow-yellow-300'/>  
-      <p className="text-lg font-normal text-white mt-5">Early tokens shared via airdrops and memes — not sold.</p>
-    </div>
+          <div className="bg-black text-yellow-400 p-4 py-10 rounded-xl text-2xl shadow-xl/50">
+            EVM Compatible
+            <FaEthereum className='m-auto size-20 mt-5 text-yellow-300 shadow-xl p-3 rounded-full shadow-yellow-300'/>  
+            <p className="text-lg font-normal text-white mt-5">Deployable on Ethereum, Polygon, Base, and all major EVM chains.</p>
+          </div>
 
-    <div className="bg-black text-yellow-400 p-4 py-10 rounded-xl text-2xl shadow-xl/50">
-      Uniswap-Ready 
-      <FaExchangeAlt className='m-auto size-20 mt-5 text-yellow-300 shadow-xl p-3 rounded-2xl shadow-yellow-300'/> 
-      <p className="text-lg font-normal text-white mt-5">Decentralized trading planned via Uniswap or compatible DEX.</p>
-    </div>
+          <div className="bg-black text-yellow-400 p-4 py-10 rounded-xl text-2xl shadow-xl/50">
+            Airdrop Distributed
+            <FaPaperPlane className='m-auto size-20 mt-5 text-yellow-300 rounded-2xl p-3 shadow-xl shadow-yellow-300'/>  
+            <p className="text-lg font-normal text-white mt-5">Early tokens shared via airdrops and memes — not sold.</p>
+          </div>
 
-    <div className="bg-black text-yellow-400 p-4 py-10 rounded-xl text-2xl shadow-xl/50">
-      Simple to Use
-      <FaCheckCircle className='m-auto size-20 mt-5 text-yellow-300 shadow-xl p-2 rounded-full shadow-yellow-300'/>
-      <p className="text-lg font-normal text-white mt-5">Connect MetaMask, claim your BRN, and start trading. No complex setup.</p>
-    </div>
+          <div className="bg-black text-yellow-400 p-4 py-10 rounded-xl text-2xl shadow-xl/50">
+            Uniswap-Ready 
+            <FaExchangeAlt className='m-auto size-20 mt-5 text-yellow-300 shadow-xl p-3 rounded-2xl shadow-yellow-300'/> 
+            <p className="text-lg font-normal text-white mt-5">Decentralized trading planned via Uniswap or compatible DEX.</p>
+          </div>
 
-  </div>
-</section>
+          <div className="bg-black text-yellow-400 p-4 py-10 rounded-xl text-2xl shadow-xl/50">
+            Simple to Use
+            <FaCheckCircle className='m-auto size-20 mt-5 text-yellow-300 shadow-xl p-2 rounded-full shadow-yellow-300'/>
+            <p className="text-lg font-normal text-white mt-5">Connect MetaMask, claim your BRN, and start trading. No complex setup.</p>
+          </div>
+        </div>
+      </section>
 
       {/* About LeBron Section */}
-      <section className="items-center gap-10 text-center m-auto shadow-xl shadow-black">
+      <section className="bg-zinc-900 items-center gap-10 text-center m-auto shadow-xl shadow-black">
         <div className="space-y-4 ">
-          <h1 className="text-5xl bg-gray-100 text-purple-700  font-extrabold m-auto p-20">But why LeBron?</h1>
-          <p className="text-black pb-15 pl-20 pr-20 bg-gray-100 text-xl font-light">LeBron James is an American professional basketball player widely considered one of the greatest of all time. <br/><br/>He's known for his exceptional all-around skills, leadership, and consistent performance.<br/><br/> James has won multiple NBA championships, MVP awards, and Olympic gold medals. He holds the NBA record for most points scored in league history!<br/><br/>To honour the 'King' we decided to launch a meme token in his honour - <b className={`${permanent_marker.className} font-bold text-2xl`}>BRON</b></p>
+          <h1 className="text-5xl text-purple-700  font-extrabold m-auto p-20">But why LeBron?</h1>
+          <p className="text-white pb-15 pl-20 pr-20 bg-zinc-900 text-xl font-light">LeBron James is an American professional basketball player widely considered one of the greatest of all time. <br/><br/>He's known for his exceptional all-around skills, leadership, and consistent performance.<br/><br/> James has won multiple NBA championships, MVP awards, and Olympic gold medals. He holds the NBA record for most points scored in league history!<br/><br/>To honour the 'King' we decided to launch a meme token in his honour - <b className={`${permanent_marker.className} font-bold text-2xl`}>BRON</b></p>
         </div>
       </section>
 
        {/* Whitepaper Section Of BRON Token*/}
-      <section className="text-center bg-white pb-10 p-10">
+      <section className="text-center bg-zinc-800 pb-10 p-10">
         <h2 className="text-5xl text-purple-700  font-extrabold m-auto pb-20 p-10">Read Our Whitepaper</h2>
-        <p className="text-black text-2xl mx-auto pb-10">Dive into the full details of Bron Token and our mission. <Link href="/whitepaper" className="underline text-2xl font-semibold text-yellow-500 hover:text-yellow-300 transition-colors">View Whitepaper</Link></p>
+        <p className="text-white text-2xl mx-auto pb-10">Dive into the full details of Bron Token and our mission. <Link href="/whitepaper" className="underline text-2xl font-semibold text-yellow-500 hover:text-yellow-300 transition-colors">View Whitepaper</Link></p>
         
       </section>
 
       {/* Wallet Setup Section */}
       <section className="text-center space-y-6 py-20 bg-[rgba(0,0,0,0.5)]">
-        <h2 className="text-5xl shadow-xl text-shadow-purple-700 text-shadow-lg shadow-black font-extrabold rounded-2xl m-auto ml-30 mr-30 bg-black pb-10 p-5">Set Up Your Wallet & Buy BRON</h2>
+        <h2 className="text-5xl shadow-xl text-shadow-purple-700 text-shadow-sm shadow-black font-semibold rounded-2xl m-auto ml-30 mr-30 bg-black pb-10 p-5">Set Up Your Wallet & Buy BRON</h2>
         <p className="text-white font-semibold text-shadow-black text-shadow-lg text-xl mt-10 mx-auto mb-10">Start trading BRN tokens in minutes by setting up your MetaMask wallet if you don't have one already.</p>
         <Link href="/walletguide" className="bg-purple-700 shadow-lg ring transition-colors shadow-purple-600 px-6 py-3 rounded-xl text-white font-bold hover:bg-purple-600">How to Create a Wallet</Link>
         <h2 className='pt-10'>*NOTE: Select the 'Other wallets' option and choose metamask to connect your wallet to Uniswap</h2>
