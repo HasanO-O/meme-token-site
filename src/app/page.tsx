@@ -50,10 +50,10 @@ No mining pools. No hardware. Just on-chain motion.</p>
       {/* Features Section Of BRON Token*/}
       <section className="bg-zinc-800  pb-20 w-full">
         <div className='items-center text-center'>
-          <h1 className="text-5xl bg-zinc-800 text-purple-600  font-extrabold m-auto p-20">Some Fun Facts</h1>
+          <h1 className="text-5xl bg-zinc-800 text-purple-600 font-extrabold m-auto p-20">Some Fun Facts</h1>
         </div>
 
-        <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10 px-20 text-center font-bold text-lg">
+        <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10 px-30 text-center font-bold text-lg">
           <div className="bg-black text-yellow-400 p-4 py-10 rounded-xl text-2xl shadow-xl/50">
             LeBron-Inspired  
             <FaBasketballBall className='m-auto size-20 mt-5 text-yellow-300 shadow-xl p-1 rounded-full shadow-yellow-300'/>
@@ -121,7 +121,7 @@ No mining pools. No hardware. Just on-chain motion.</p>
 
       {/* Wallet Setup Section */}
       <section className="text-center space-y-6 py-20 bg-[rgba(0,0,0,0.5)]">
-        <h2 className="text-5xl shadow-xl text-shadow-purple-700 text-shadow-sm font-semibold rounded-2xl m-auto ml-30 mr-30 bg-black pb-10 p-5">Set Up Your Wallet & Buy BRON</h2>
+        <h2 className="text-5xl shadow-xl text-shadow-purple-500 text-shadow-lg font-semibold rounded-2xl m-auto ml-30 mr-30 bg-black pb-10 p-5">Set Up Your Wallet & Buy BRON</h2>
         <p className="text-white font-semibold text-shadow-black text-shadow-lg text-xl mt-10 mx-auto mb-10">Start trading BRN tokens in minutes by setting up your MetaMask wallet if you don't have one already.</p>
         <Link href="/walletguide" className="bg-purple-700 shadow-lg ring transition-colors shadow-purple-600 px-6 py-3 rounded-xl text-white font-bold hover:bg-purple-600">How to Create a Wallet</Link>
         <h2 className='pt-10'>*NOTE: Select the 'Other wallets' option and choose metamask to connect your wallet to Uniswap</h2>

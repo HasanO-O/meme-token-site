@@ -11,6 +11,11 @@ export default function Court() {
                 <planeGeometry args={[20, 20]} />
                 <meshStandardMaterial color="#f4a460" />
             </mesh>
+            {/* Roof */}
+            <mesh rotation={[Math.PI / 2, 0, 0]} position={[0,18,0]} receiveShadow>
+                <planeGeometry args={[40, 20]} />
+                <meshStandardMaterial color="beige" />
+            </mesh>
             
         {/* Half court line */}
             <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.01, 3]}>

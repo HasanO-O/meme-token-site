@@ -1,7 +1,9 @@
+import { RigidBody } from "@react-three/rapier";
+
 // Stands for simulating a basketball court, and the backwalls
 export default function Stands() {
   return (
-    <>
+    <RigidBody type="fixed" colliders="trimesh">
       {/* Left stand 1 */}
       <mesh position={[-12.5, 1, 0]}>
         <boxGeometry args={[5, 2, 20]} />
@@ -161,6 +163,18 @@ export default function Stands() {
         <boxGeometry args={[100, 2, 2]} />
         <meshStandardMaterial color="#da9100" />
       </mesh>
-    </>
+
+      {/* Upper wall behind the ball */}
+      <mesh position={[0, 5.5, 11]}>
+        <boxGeometry args={[110, 25, 2]} />
+        <meshStandardMaterial color="#fffdd0" />
+      </mesh>
+
+      {/* Lower wall behind the hoop */}
+      <mesh position={[0, 1, 10.99]}>
+        <boxGeometry args={[100, 2, 2]} />
+        <meshStandardMaterial color="#da9100" />
+      </mesh>
+    </RigidBody>
   )
 }

@@ -1,11 +1,12 @@
 import { useGLTF } from "@react-three/drei"
+import { RigidBody } from "@react-three/rapier"
 
 // CHAIRS
 export default function Chairs() {
   const { scene } = useGLTF('/chair.glb')
 
   return (
-    <>
+    <RigidBody type="fixed" colliders="trimesh">
     {/* Bottom left row*/}
     <primitive object={scene.clone()} position={[-9,1,8.5]} rotation={[0,Math.PI/1.6,0]} scale={0.0025} />
     <primitive object={scene.clone()} position={[-9,1,6]} rotation={[0,Math.PI/1.6,0]} scale={0.0025} />
@@ -57,6 +58,6 @@ export default function Chairs() {
     <primitive object={scene.clone()} position={[19,5,-2.5]} rotation={[0,Math.PI/0.62,0]} scale={0.0025} />
     <primitive object={scene.clone()} position={[19,5,-5]} rotation={[0,Math.PI/0.62,0]} scale={0.0025} />
     <primitive object={scene.clone()} position={[19,5,-8]} rotation={[0,Math.PI/0.62,0]} scale={0.0025} />
-    </>
+    </RigidBody>
   )
 }
