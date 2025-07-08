@@ -47,6 +47,7 @@ export default function Basketball({ gameActive }: { gameActive: boolean }) {
     }
 
     const handleTouchStart = (e: TouchEvent) => {
+      if (!gameActive) return;
       const touch = e.touches[0]
       setDragStart([touch.clientX, touch.clientY])
     }
@@ -80,7 +81,7 @@ export default function Basketball({ gameActive }: { gameActive: boolean }) {
       rigidBodyRef.current.setLinvel({ x: 0, y: 0, z: 0 }, true)
       rigidBodyRef.current.setAngvel({ x: 0, y: 0, z: 0 }, true)
        // Apply impulse with speed factor
-  const throwStrength = 0.48 // adjust this
+  const throwStrength = 0.47 // adjust this
   rigidBodyRef.current.applyImpulse(dragVector.clone().multiplyScalar(throwStrength), true)
 
       setDragStart(null)

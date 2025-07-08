@@ -1,6 +1,6 @@
 // app/game/page.tsx or wherever your GamePage is
 import { Suspense } from 'react'
-import GameCanvas from '@/components/GameCanvas'
+import GameCanvas from '@/components/gameparts/GameCanvas'
 import LoadingScreen from './loading'
 
 export default function GamePage() {

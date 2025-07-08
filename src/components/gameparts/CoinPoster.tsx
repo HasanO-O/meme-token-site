@@ -6,8 +6,8 @@ export default function CoinPoster() {
 
   return (
     <RigidBody type="fixed" colliders="trimesh">
-    <mesh position={[0, 11, -9.99]} rotation={[0, 0, 0]}>
-      <planeGeometry args={[5, 4]} />
+    <mesh position={[0, 13, -9.9]} rotation={[0, 0, 0]}>
+      <planeGeometry args={[4.5, 4]} />
       <meshStandardMaterial map={texture} transparent={true}/>
     </mesh>
     </RigidBody>
